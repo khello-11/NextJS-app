@@ -1,0 +1,8 @@
+.navbar {
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(238, 17, 17);
+  width: auto;
+  height: 200;
+  color: "black";
+}
