@@ -7,7 +7,7 @@ export default function Dynamic({ posts }: any) {
   );
 }
 
-// to select how many id to are to have
+// to select how many id are to have
 export const getStaticPaths = async () => {
   const res = await fetch("http://localhost:3000/api/posts");
   const data = await res.json();
